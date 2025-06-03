@@ -16,7 +16,7 @@ Interfaz colorida: Gráficos ASCII con colores ANSI para una mejor experiencia v
 
 Efectos de sonido: Sonidos del sistema usando la función Beep de Windows
 
-
+#
 Sistema de Puntuación
 
 
@@ -28,7 +28,7 @@ Superpastillas (?): 3000 puntos
 
 Fantasmas eliminados: 1200 puntos cada uno
 
-
+#
 Controles
 
 
@@ -42,7 +42,7 @@ D: Mover derecha
 
 O: Salir del juego (elimina el puntaje actual)
 
-
+#
 Estructura del Proyecto
 
 ├── main.c          # Archivo principal con lógica del juego
@@ -59,13 +59,13 @@ Compilación y Ejecución
 
 Requisitos
 
-
+#
 Compilador GCC
 
 Sistema Windows (usa funciones específicas de Windows API)
 
 Terminal con soporte para colores ANSI
-
+#
 
 Compilar
 
@@ -78,18 +78,18 @@ bash./pacman.exe
 Cómo Jugar
 
 
-Ejecuta el programa y selecciona "1) Para jugar"
-
-Usa WASD para mover a Pac-Man por el laberinto
-
-Come todos los puntos (*) y cerezas (+) para completar el nivel
-
-Evita a los fantasmas o perderás una vida (tienes 3 vidas)
-
-Come las superpastillas (?) para poder eliminar fantasmas temporalmente
-
-Completa todos los niveles para ganar
-
+ Ejecuta el programa y selecciona "1) Para jugar"
+ 
+ Usa WASD para mover a Pac-Man por el laberinto
+ 
+ Come todos los puntos (*) y cerezas (+) para completar el nivel
+ 
+ Evita a los fantasmas o perderás una vida (tienes 3 vidas)
+ 
+ Come las superpastillas (?) para poder eliminar fantasmas temporalmente
+ 
+ Completa todos los niveles para ganar
+#
 
 Desarrolladores
 
@@ -102,7 +102,7 @@ Eli Domínguez
 Ivan Fernández
 
 Christofer Castañeda
-
+#
 
 Estado del Desarrollo
 
@@ -129,7 +129,7 @@ Completado al 100%
  
  Progresión de niveles y dificultad
 
-
+#
 Características Técnicas
 
 
@@ -144,7 +144,7 @@ Audio: Función Beep() del sistema
 
 Persistencia: Archivo de texto para puntajes
 
-
+#
 
 Notas
 
