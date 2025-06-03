@@ -15,9 +15,9 @@ Sistema de puntuación y récords: Guarda los mejores 7 puntajes en archivo loca
 Interfaz colorida: Gráficos ASCII con colores ANSI para una mejor experiencia visual
 
 Efectos de sonido: Sonidos del sistema usando la función Beep de Windows
-
 #
-Sistema de Puntuación
+
+## Sistema de Puntuación
 
 
 Puntos normales (*): 10 puntos
@@ -27,9 +27,8 @@ Cerezas (+): 30 puntos
 Superpastillas (?): 3000 puntos
 
 Fantasmas eliminados: 1200 puntos cada uno
-
 #
-Controles
+## Controles
 
 
 W: Mover arriba
@@ -43,7 +42,7 @@ D: Mover derecha
 O: Salir del juego (elimina el puntaje actual)
 
 #
-Estructura del Proyecto
+## Estructura del Proyecto
 
 ├── main.c          # Archivo principal con lógica del juego
 
@@ -60,14 +59,14 @@ Compilación y Ejecución
 Requisitos
 
 #
-Compilador GCC
+## Compilador GCC
 
 Sistema Windows (usa funciones específicas de Windows API)
 
 Terminal con soporte para colores ANSI
 #
 
-Compilar
+## Compilar
 
 bashgcc main.c pacLib.c -o pacman.exe
 
@@ -91,7 +90,7 @@ Cómo Jugar
  Completa todos los niveles para ganar
 #
 
-Desarrolladores
+## Desarrolladores
 
 
 
@@ -104,7 +103,7 @@ Ivan Fernández
 Christofer Castañeda
 #
 
-Estado del Desarrollo
+## Estado del Desarrollo
 
 Completado al 100%
 
@@ -130,7 +129,7 @@ Completado al 100%
  Progresión de niveles y dificultad
 
 #
-Características Técnicas
+## Características Técnicas
 
 
 
@@ -146,7 +145,7 @@ Persistencia: Archivo de texto para puntajes
 
 #
 
-Notas
+## Notas
 
 Este proyecto fue desarrollado como ejercicio académico para demostrar conceptos de programación en C, incluyendo:
 
