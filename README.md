@@ -1,4 +1,3 @@
-artifact identifier="github-description" type="text/markdown" title="README para Pac-Man en C">
 # 🎮 Pac-Man en C (Pukku-man)
 Un clon completo del clásico juego Pac-Man implementado en C para terminal, desarrollado como proyecto académico.
 ✨ Características
