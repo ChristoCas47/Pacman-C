@@ -163,6 +163,6 @@ Interfaz de usuario en terminal
 Programación modular
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 
 Inspirado en el clásico Pac-Man de Namco. Desarrollado con fines educativos.
-</artifact>
+
