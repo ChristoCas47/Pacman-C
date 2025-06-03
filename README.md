@@ -1,160 +1,95 @@
-MANUAL DE JUEGO DE PACMAN
-
-
-¡Bienvenido!
-
-
-En este manual vas a encontrar la información que necesitas 
-para poder empezar a jugar PACMAN.
-
-
-
-
-
-
-		.INDICE.
-	
-		CONTROLES 	.. (1)
-	
-		MOVIMIENTO 	.. (2)
-
-		CONSUMIBLES	.. (3)
-
-		FANTASMAS	.. (4)
-
-		NIVELES		.. (5)
-
-		PERSONAJES	.. (6)
-
-
-
-
-
-
-(1) CONTROLES
-
-
-Inspirado por otros videojuegos de computadora, Pacman utiliza
-la teclas WASD como control de movimiento. Analogo a la posición
-de las flechas (arriba, abajo, izq., der.) estas cuatro teclas
-mueven a pacman a la posición hacia donde apuntan.
-
-W - Arriba
-
-A - Izquierda
-
-S - Abajo
-
-D - Derecha
-
-Asi mismo, si necesitas terminar tu partida antes de tiempo, puedes
-presionar la tecla 'o'. Se eligio esta tecla pues esta lejos de
-WASD.
-
-ADVERTENCIA: Salirse de la partida con 'o' elimina por completo tu
-puntaje.
-
-"Morir con honor, en vez de huir como gallina" - Pacman.
-
-
-
-(2) MOVIMIENTO
-
-
-Ya mencionamos que WASD son las teclas de movimiento, pero...
-
-¿Como se mueve PACMAN?
-
-Una vez presiones la tecla de la dirección a donde quieras ir,
-PACMAN automaticamente se va a mover a esa dirección. En su
-camino va a estar comiendo los puntos y superpastillas que se 
-encuentre.
-
-¿Cuando se detiene pacman?
-
-Cuando PACMAN se encuentre con una pared ( # ) o con un
-fantasma ( n ) este va a dejar de moverse. Con el primero
-simplemente se detiene hasta que el jugador presione otra
-tecla, con el segundo deja de moverse debido a que muere.
-
-Es gracias a esto que simplemente tienes que presionar
-una vez la tecla de dirección. No hay necesidad de 
-mantener presionado o de estar tocando la misma dirección.
-Toma encuenta que Pacman sigue tus ordenes a la perfección
-por lo que se puede quedar parado si le dices que se
-mueva en dirección a una pared!
-
-
-
-(3) CONSUMIBLES
-
-
-A continuación esta la lista de consumibles:
-
-
-* - La comida favorita de PACMAN estos puntos sin gluten
-son el alimento perfecto que te otorga 10 puntos!
-
-+ - A quien no le gusta un postre? PACMAN adora comer
-estas cerezas que le dan 40 puntos!
-
-? - ¿Que sera? Es la SUPERPASTILLA! Permite que PACMAN
-pueda comer a esos moralmente ambiguos fantasmas!
-¿Sera esta la razon por la que lo odian?
-
-
-(4) FANTASMAS
-
-
-Conforme te muevas por el mapa, es posible que encuentres a
-unos impredescibles fantasmas con forma de ene ( n ).
-
-Ten cuidado! Si te atrapan vas a perder una vida. Pierde
-tres, y es GAME OVER.
-
-Los fantasmas les gusta girar en las intersección y
-seguir a PACMAN. Pero cuando este come la SUPERPASTILLA
-se ponen azules del miedo.
-
-Cuando PACMAN pierde una vida, aparece un fantasma nuevo
-cuando este ReAparece.
-
-
-(5) NIVELES
-
-
-Cuando comas todos los puntos completas el nivel.
-Preparate, pues cada vez el juego se pone mas rapido.
-
-
-(6) PERSONAJES
-
-
-PACMAN tiene a 5 personajes.
-
-
-
-PACMAN 	- La bola amarilla favorita de todo el mundo.
-Este es el personaje a quien vas a controlar por el mapa,
-cuida que no lo atrapen los fantasmas y come todos esos
-deliciosos puntos.
-
-
-Inky 	- Este maleante carmesi le gusta ir al frente de todo
-ya sean filas, en su carro, en una carrera, y desde luego
-es el primero en salir de la casa de los fantasmas.
-
-
-Pinky 	- Que no te engañe! Le gusta el rosa pero es magenta.
-Este pequeño fantasma es un experto en rodear a PACMAN
-junto a sus amigos.
-
-
-Blinky 	- El famoso fantasma celeste del este. Blinky
-esta consciente de que su color es similar al azul cuando
-PACMAN come una SUPERPASTILLA y le encanta usar esto para
-atrapar a su distraido enemigo.
-
-
-Bob 	- El es Bob.
-
+artifact identifier="github-description" type="text/markdown" title="README para Pac-Man en C">
+# 🎮 Pac-Man en C (Pukku-man)
+Un clon completo del clásico juego Pac-Man implementado en C para terminal, desarrollado como proyecto académico.
+✨ Características
+
+Jugabilidad clásica: Controla a Pac-Man para comer todos los puntos mientras evitas a los fantasmas
+Sistema de fantasmas inteligente: 4 fantasmas únicos (Inky, Pinky, Blinky y Bob) con algoritmos de movimiento aleatorio
+Superpastillas: Come las superpastillas (?) para poder eliminar temporalmente a los fantasmas
+Sistema de niveles progresivos: Dos mapas diferentes que se alternan con dificultad creciente
+Sistema de puntuación y récords: Guarda los mejores 7 puntajes en archivo local
+Interfaz colorida: Gráficos ASCII con colores ANSI para una mejor experiencia visual
+Efectos de sonido: Sonidos del sistema usando la función Beep de Windows
+
+🎯 Sistema de Puntuación
+
+Puntos normales (*): 10 puntos
+Cerezas (+): 30 puntos
+Superpastillas (?): 3000 puntos
+Fantasmas eliminados: 1200 puntos cada uno
+
+🕹️ Controles
+
+W: Mover arriba
+A: Mover izquierda
+S: Mover abajo
+D: Mover derecha
+O: Salir del juego (elimina el puntaje actual)
+
+🏗️ Estructura del Proyecto
+├── main.c          # Archivo principal con lógica del juego
+├── pacLib.c        # Funciones auxiliares (menú, puntuación, animaciones)
+├── pacLib.h        # Declaraciones de funciones
+├── readme.txt      # Manual de usuario en español
+└── highScore.txt   # Archivo de puntajes (generado automáticamente)
+🚀 Compilación y Ejecución
+Requisitos
+
+Compilador GCC
+Sistema Windows (usa funciones específicas de Windows API)
+Terminal con soporte para colores ANSI
+
+Compilar
+bashgcc main.c pacLib.c -o pacman.exe
+Ejecutar
+bash./pacman.exe
+🎮 Cómo Jugar
+
+Ejecuta el programa y selecciona "1) Para jugar"
+Usa WASD para mover a Pac-Man por el laberinto
+Come todos los puntos (*) y cerezas (+) para completar el nivel
+Evita a los fantasmas o perderás una vida (tienes 3 vidas)
+Come las superpastillas (?) para poder eliminar fantasmas temporalmente
+Completa todos los niveles para ganar
+
+👥 Desarrolladores
+
+Alan León
+Eli Domínguez
+Ivan Fernández
+Christofer Castañeda
+
+📋 Estado del Desarrollo
+✅ Completado al 100%
+
+ Físicas y movimiento
+ Sistema de menús
+ Mapas y niveles
+ Sistema de controles
+ Algoritmo de fantasmas
+ Sistema de vidas
+ Sistema de puntuación
+ Superpastillas
+ Cinemáticas de victoria/derrota
+ Progresión de niveles y dificultad
+
+🔧 Características Técnicas
+
+Lenguaje: C estándar
+Plataforma: Windows (usa windows.h, conio.h)
+Gráficos: ASCII art con colores ANSI
+Audio: Función Beep() del sistema
+Persistencia: Archivo de texto para puntajes
+
+📝 Notas
+Este proyecto fue desarrollado como ejercicio académico para demostrar conceptos de programación en C, incluyendo:
+
+Manejo de estructuras y enumeraciones
+Algoritmos de movimiento y colisiones
+Gestión de archivos
+Interfaz de usuario en terminal
+Programación modular
+
+
+Inspirado en el clásico Pac-Man de Namco. Desarrollado con fines educativos.
+</artifact>
