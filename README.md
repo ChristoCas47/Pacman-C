@@ -1,6 +1,6 @@
 # 🎮 Pac-Man en C (Pukku-man)
 Un clon completo del clásico juego Pac-Man implementado en C para terminal, desarrollado como proyecto académico.
-✨ Características
+Características
 
 Jugabilidad clásica: Controla a Pac-Man para comer todos los puntos mientras evitas a los fantasmas
 
@@ -17,7 +17,7 @@ Interfaz colorida: Gráficos ASCII con colores ANSI para una mejor experiencia v
 Efectos de sonido: Sonidos del sistema usando la función Beep de Windows
 
 
-🎯 Sistema de Puntuación
+Sistema de Puntuación
 
 
 Puntos normales (*): 10 puntos
@@ -29,7 +29,7 @@ Superpastillas (?): 3000 puntos
 Fantasmas eliminados: 1200 puntos cada uno
 
 
-🕹️ Controles
+Controles
 
 
 W: Mover arriba
@@ -43,7 +43,7 @@ D: Mover derecha
 O: Salir del juego (elimina el puntaje actual)
 
 
-🏗️ Estructura del Proyecto
+Estructura del Proyecto
 
 ├── main.c          # Archivo principal con lógica del juego
 
@@ -55,7 +55,7 @@ O: Salir del juego (elimina el puntaje actual)
 
 └── highScore.txt   # Archivo de puntajes (generado automáticamente)
 
-🚀 Compilación y Ejecución
+Compilación y Ejecución
 
 Requisitos
 
@@ -75,7 +75,7 @@ Ejecutar
 
 bash./pacman.exe
 
-🎮 Cómo Jugar
+Cómo Jugar
 
 
 Ejecuta el programa y selecciona "1) Para jugar"
@@ -91,7 +91,7 @@ Come las superpastillas (?) para poder eliminar fantasmas temporalmente
 Completa todos los niveles para ganar
 
 
-👥 Desarrolladores
+Desarrolladores
 
 
 
@@ -104,9 +104,9 @@ Ivan Fernández
 Christofer Castañeda
 
 
-📋 Estado del Desarrollo
+Estado del Desarrollo
 
-✅ Completado al 100%
+Completado al 100%
 
 
  Físicas y movimiento
@@ -130,7 +130,7 @@ Christofer Castañeda
  Progresión de niveles y dificultad
 
 
-🔧 Características Técnicas
+Características Técnicas
 
 
 
@@ -146,7 +146,7 @@ Persistencia: Archivo de texto para puntajes
 
 
 
-📝 Notas
+Notas
 
 Este proyecto fue desarrollado como ejercicio académico para demostrar conceptos de programación en C, incluyendo:
 
@@ -163,6 +163,6 @@ Interfaz de usuario en terminal
 Programación modular
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Inspirado en el clásico Pac-Man de Namco. Desarrollado con fines educativos.
 </artifact>
