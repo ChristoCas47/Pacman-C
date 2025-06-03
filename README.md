@@ -54,12 +54,12 @@ O: Salir del juego (elimina el puntaje actual)
 
 └── highScore.txt   # Archivo de puntajes (generado automáticamente)
 
-Compilación y Ejecución
+#
+## Compilación y Ejecución
 
 Requisitos
 
-#
-## Compilador GCC
+Compilador GCC
 
 Sistema Windows (usa funciones específicas de Windows API)
 
