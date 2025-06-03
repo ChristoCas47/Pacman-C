@@ -1,0 +1,163 @@
+MANUAL DE JUEGO DE PACMAN
+
+
+¡Bienvenido!
+
+
+En este manual vas a encontrar la información que necesitas 
+para poder empezar a jugar PACMAN.
+
+
+
+
+
+
+		.INDICE.
+	
+		CONTROLES 	.. (1)
+	
+		MOVIMIENTO 	.. (2)
+
+		CONSUMIBLES	.. (3)
+
+		FANTASMAS	.. (4)
+
+		NIVELES		.. (5)
+
+		PERSONAJES	.. (6)
+
+
+
+
+
+
+(1) CONTROLES
+
+
+Inspirado por otros videojuegos de computadora, Pacman utiliza
+la teclas WASD como control de movimiento. Analogo a la posición
+de las flechas (arriba, abajo, izq., der.) estas cuatro teclas
+mueven a pacman a la posición hacia donde apuntan.
+
+W - Arriba
+
+A - Izquierda
+
+S - Abajo
+
+D - Derecha
+
+Asi mismo, si necesitas terminar tu partida antes de tiempo, puedes
+presionar la tecla 'o'. Se eligio esta tecla pues esta lejos de
+WASD.
+
+ADVERTENCIA: Salirse de la partida con 'o' elimina por completo tu
+puntaje.
+
+"Morir con honor, en vez de huir como gallina" - Pacman.
+
+
+
+(2) MOVIMIENTO
+
+
+Ya mencionamos que WASD son las teclas de movimiento, pero...
+
+¿Como se mueve PACMAN?
+
+Una vez presiones la tecla de la dirección a donde quieras ir,
+PACMAN automaticamente se va a mover a esa dirección. En su
+camino va a estar comiendo los puntos y superpastillas que se 
+encuentre.
+
+¿Cuando se detiene pacman?
+
+Cuando PACMAN se encuentre con una pared ( # ) o con un
+fantasma ( n ) este va a dejar de moverse. Con el primero
+simplemente se detiene hasta que el jugador presione otra
+tecla, con el segundo deja de moverse debido a que muere.
+
+Es gracias a esto que simplemente tienes que presionar
+una vez la tecla de dirección. No hay necesidad de 
+mantener presionado o de estar tocando la misma dirección.
+Toma encuenta que Pacman sigue tus ordenes a la perfección
+por lo que se puede quedar parado si le dices que se
+mueva en dirección a una pared!
+
+
+
+(3) CONSUMIBLES
+
+
+A continuación esta la lista de consumibles:
+
+
+* - La comida favorita de PACMAN estos puntos sin gluten
+son el alimento perfecto que te otorga 10 puntos!
+
++ - A quien no le gusta un postre? PACMAN adora comer
+estas cerezas que le dan 40 puntos!
+
+? - ¿Que sera? Es la SUPERPASTILLA! Permite que PACMAN
+pueda comer a esos moralmente ambiguos fantasmas!
+¿Sera esta la razon por la que lo odian?
+
+
+(4) FANTASMAS
+
+
+Conforme te muevas por el mapa, es posible que encuentres a
+unos impredescibles fantasmas con forma de ene ( n ).
+
+Ten cuidado! Si te atrapan vas a perder una vida. Pierde
+tres, y es GAME OVER.
+
+Los fantasmas les gusta girar en las intersección y
+seguir a PACMAN. Pero cuando este come la SUPERPASTILLA
+se ponen azules del miedo.
+
+Cuando PACMAN pierde una vida, aparece un fantasma nuevo
+cuando este ReAparece.
+
+
+(5) NIVELES
+
+
+Cuando comas todos los puntos completas el nivel.
+Preparate, pues cada vez el juego se pone mas rapido.
+
+
+(6) PERSONAJES
+
+
+PACMAN tiene a 5 personajes.
+
+
+
+PACMAN 	- La bola amarilla favorita de todo el mundo.
+Este es el personaje a quien vas a controlar por el mapa,
+cuida que no lo atrapen los fantasmas y come todos esos
+deliciosos puntos.
+
+
+Inky 	- Este maleante carmesi le gusta ir al frente de todo
+ya sean filas, en su carro, en una carrera, y desde luego
+es el primero en salir de la casa de los fantasmas.
+
+
+Pinky 	- Que no te engañe! Le gusta el rosa pero es magenta.
+Este pequeño fantasma es un experto en rodear a PACMAN
+junto a sus amigos.
+
+
+Blinky 	- El famoso fantasma celeste del este. Blinky
+esta consciente de que su color es similar al azul cuando
+PACMAN come una SUPERPASTILLA y le encanta usar esto para
+atrapar a su distraido enemigo.
+
+
+Bob 	- El es Bob.
+
+
+
+
